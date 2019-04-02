@@ -1,0 +1,155 @@
+@font-face {
+	font-family:'Josefin Slab';
+	 src: url('_-webfont.woff2') format('woff2'),
+         url('_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "Josefin Slab", Arial, serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #fbf2eb;
+}
+.ym{
+	margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.ym_top{
+	margin-left: -25px;
+    margin-right: -25px;
+    margin-top:-20px;
+    overflow-x: hidden;
+}
+.ym_top1{
+	 padding: 12px 0;
+    width: 100%;
+    float: left;
+    position:relative;
+
+}
+.menu{ 
+	padding:5px 15px;
+	position:relative;
+	float:left;
+	width: 58.33333%;
+	background-color:#fbf2eb;
+	box-sizing: border-box;
+}
+ 
+.menu ul li{
+	display:inline;
+    line-height:12px;
+    padding: 0;
+    margin: 2.5px 0 2.5px 0;
+    float:left;
+}
+ 
+.inner_menu1{
+	display:inline;
+    line-height:12px;
+    padding: 0;
+    margin: 5px 0 0 0;
+}
+.menu ul{
+    line-height:12px;
+    padding: 0;
+    margin: 10px 0 10px 0;
+    box-sizing: border-box;
+}
+ 
+.menu a{
+	color:#000000 ;
+	text-decoration:none;
+	font-weight:500;
+	padding:30px 10px;
+	}
+.menu a:hover{
+	color:#8080ff;
+	text-decoration:none;
+	font-weight:500;
+	padding:30px 10px;}
+#inner_menu{
+	display:none;
+	background-color:#fbf2eb;
+	position:absolute;
+	width:120px;
+	height:150pxpx;
+	padding:5px;
+	margin:5px;
+	}
+#inner_menu1 li{display:block;
+                line-height:12px;}
+#inner_menu1:hover #inner_menu{display:block;}
+.innu_m{
+	display: inline;
+	float:right;
+}
+.menu1{ 
+	padding:0 20px;
+	position:relative;
+	float:right;
+	width: 41.77777%;
+	background-color:#fbf2eb;
+	box-sizing: border-box;
+	top:-37px;
+}
+ 
+.menu1 ul li{
+	display:inline;
+    line-height:12px;
+    padding: 0;
+    margin: 5px 0 0 0;
+    float:left;
+}
+ 
+.menu1 ul{
+    line-height:12px;
+    padding: 0;
+    margin: 10px 0 10px 0;
+    box-sizing: border-box;
+}
+ 
+.menu1 a{
+	color:#000000  ;
+	text-decoration:none;
+	font-weight:500;
+	padding:30px 10px;
+	}
+	.menu1 a:hover{
+	color:#8080ff;
+	text-decoration:none;
+	font-weight:500;
+	padding:30px 10px;}
+.midle{
+	padding:40px;
+	width:100%;
+}
+.remark{
+	margin:0 auto;
+	position:relative;
+	width:150px;
+	height:150px;
+}
+.remark h1{
+	text-align:center;
+	border: 1px solid black;
+	border-radius: 50%;
+	 }
+.remark a{text-decoration:none;}
+.remark::before{
+	content:"";
+	background-color:rgb(251, 242, 235,0.5);
+	top:-10px;
+	left:-10px;
+	position:absolute;
+	width:150px;
+	height:150px;
+	border-radius: 50%;
+}
+
+
+
